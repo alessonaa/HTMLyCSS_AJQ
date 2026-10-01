@@ -1,0 +1,80 @@
+/* ALESSANDRA JUAREZ */
+
+/* Estilos generales del body */
+body {
+    font-family: 'Segoe UI', sans-serif; /* Tipo de fuente */
+    background-color: #f0f2f5;          /* Color de fondo */
+    display: flex;                       /* Usa Flexbox */
+    justify-content: center;             /* Centra horizontalmente */
+    align-items: center;                 /* Centra verticalmente */
+    height: 100vh;                       /* Ocupa toda la altura */
+    margin: 0;                           /* Sin margen */
+}
+
+/* Estilo del contenedor principal (tarjeta) */
+.card {
+    width: 400px;                        /* Ancho de la tarjeta */
+    height: 230px;                       /* Alto de la tarjeta */
+    background: white;                   /* Fondo blanco */
+    border-radius: 15px;                 /* Bordes redondeados */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sombra */
+    display: flex;                       /* Flexbox para las dos partes */
+    overflow: hidden;                    /* Oculta el desbordamiento */
+}
+
+/* Parte izquierda */
+.left {
+    width: 35%;                          /* Ancho de la parte izquierda */
+    background: #502c41;                 /* Color de fondo */
+    display: flex;                       /* Flexbox */
+    flex-direction: column;              /* Dirección en columna */
+    align-items: center;                 /* Centra contenido */
+    justify-content: center;             /* Centra verticalmente */
+    padding: 20px;                       /* Espaciado interno */
+}
+
+/* Estilo del círculo de la foto */
+.photo {
+    width: 80px;                         /* Ancho del círculo */
+    height: 80px;                        /* Alto del círculo */
+    /*background-color: #ddd;    */          /* Color de fondo */
+    border-radius: 50%;                  /* Forma circular */
+    border: 3px solid white;             /* Borde blanco */
+    object-fit: cover; /* Ajusta la imagen al círculo sin distorsionarla */
+}
+
+/* Parte derecha */
+.right {
+    width: 65%;                          /* Ancho de la parte derecha */
+    padding: 30px;                       /* Espaciado interno */
+    display: flex;                       /* Flexbox */
+    flex-direction: column;              /* Dirección en columna */
+    justify-content: center;             /* Centra contenido */
+}
+
+/* Estilo del nombre */
+h2 {
+    margin: 0;
+    color: #351024;
+    font-size: 22px;
+}
+
+/* Estilo del cargo o título */
+p.title {
+    margin: 5px 0 20px 0;
+    color: #7f8c8d;
+    font-size: 14px;
+    text-transform: uppercase;          /* Texto en mayúsculas */
+    letter-spacing: 1px;                /* Espaciado entre letras */
+}
+
+/* Estilo de la información de contacto */
+.info {
+    font-size: 13px;                    /* Tamaño del texto */
+    color: #555;                        /* Color del texto */
+    line-height: 1.6;                   /* Espacio entre líneas */
+}
+
+.info div {
+    margin-bottom: 5px;                 /* Separación entre datos */
+}

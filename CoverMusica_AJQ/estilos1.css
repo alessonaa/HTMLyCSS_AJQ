@@ -1,0 +1,57 @@
+/* ALESSANDRA JUAREZ */
+
+/* Estilos generales del body */
+body {
+    display: flex;             /* Usa Flexbox para centrar */
+    justify-content: center;   /* Centra horizontalmente */
+    align-items: center;       /* Centra verticalmente */
+    height: 100vh;             /* Alto de toda la ventana */
+    background: #f0f0f0;       /* Color de fondo */
+    font-family: sans-serif;   /* Tipo de fuente */
+}
+
+/* Estilos de la tarjeta del cover */
+.cover {
+    width: 300px;              /* Ancho de la tarjeta */
+    height: 300px;             /* Alto de la tarjeta */
+    background: linear-gradient(
+        45deg,                 /* Ángulo del degradado */
+        #ff9a9e 0%,            /* Color inicial */
+        #fad0c4 99%,           /* Color intermedio */
+        #fad0c4 100%           /* Color final */
+    );
+    border-radius: 20px;       /* Esquinas redondeadas */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); /* Sombra */
+    position: relative;        /* Posición relativa */
+    overflow: hidden;          /* Oculta el desbordamiento */
+    display: flex;             /* Usa Flexbox */
+    flex-direction: column;    /* Elementos en columna */
+    justify-content: flex-end; /* Alinea el contenido abajo */
+    padding: 20px;             /* Espaciado interno */
+    color: white;              /* Color del texto */
+}
+
+/* Estilo del círculo decorativo */
+.circle {
+    position: absolute;        /* Posición absoluta */
+    top: -50px;                /* Mueve hacia arriba */
+    right: -50px;              /* Mueve a la derecha */
+    width: 200px;              /* Ancho del círculo */
+    height: 200px;             /* Alto del círculo */
+    background: rgba(255, 255, 255, 0.2); /* Color blanco con transparencia */
+    border-radius: 50%;        /* Forma de círculo */
+}
+
+/* Estilo del título */
+h2 {
+    margin: 0;                 /* Sin margen */
+    font-size: 24px;           /* Tamaño de letra */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra en el texto */
+}
+
+/* Estilo del subtítulo */
+p {
+    margin: 5px 0 0;           /* Margen superior */
+    font-size: 14px;           /* Tamaño de letra */
+    opacity: 0.9;              /* Ligera transparencia */
+}

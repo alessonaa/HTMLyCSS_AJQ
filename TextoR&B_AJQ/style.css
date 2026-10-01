@@ -1,0 +1,28 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    display: flex;             /* Usa Flexbox para centrar */
+    justify-content: center;   /* Centrado horizontal */
+    align-items: center;       /* Centrado vertical */
+    height: 100vh;             /* 100% del alto de la ventana */
+    background: #ffffff;       /* Color de fondo blanco */
+    margin: 0;                 /* Elimina márgenes por defecto */
+    font-family: 'Georgia', 'Times New Roman', serif; /* Tipo de fuente */
+}
+
+/* Estilo del texto R&B */
+.rnb-text {
+    font-size: 90px;           /* Tamaño grande del texto */
+    font-weight: bold;         /* Texto en negrita */
+    text-transform: uppercase; /* Convierte a mayúsculas */
+    letter-spacing: -2px;      /* Espacio entre letras */
+    margin: 0;                 /* Sin margen */
+
+    /* Degradado de color en el texto */
+    background: linear-gradient(135deg, #240046 0%, #7b2cbf 50%, #ffd700 100%); /* Gradiente morado a amarillo */
+    -webkit-background-clip: text; /* Aplica el fondo solo al texto */
+    background-clip: text;     /* Propiedad estándar */
+    color: transparent;        /* Hace transparente el color del texto */
+
+    /* Sombra para dar profundidad */
+    filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.11));
+}

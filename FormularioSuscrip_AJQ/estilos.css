@@ -1,0 +1,65 @@
+/* ALESSANDRA JUAREZ */
+
+/* Estilos generales del cuerpo de la página */
+body {
+    display: flex;             /* Usa Flexbox para centrar */
+    justify-content: center;   /* Centra horizontalmente */
+    align-items: center;       /* Centra verticalmente */
+    height: 100vh;             /* Ocupa toda la ventana */
+    background: #121212;       /* Fondo oscuro */
+    margin: 0;
+}
+
+/* Estilos del contenedor principal */
+.subscribe-card {
+    background: #1e1e1e;       /* Fondo oscuro del card */
+    padding: 30px;             /* Espaciado interno */
+    border-radius: 15px;       /* Bordes redondeados */
+    text-align: center;        /* Texto centrado */
+    width: 300px;              /* Ancho del card */
+    border: 1px solid #333;    /* Borde sutil */
+    box-shadow: 0 1px 20px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Estilo del título */
+h2 {
+    color: #fff;               /* Color blanco */
+    font-size: 24px;           /* Tamaño de letra */
+    margin-bottom: 10px;       /* Espacio inferior */
+}
+
+/* Estilo del texto secundario */
+p {
+    color: #aaa;               /* Color gris */
+    font-size: 14px;           /* Tamaño de letra */
+    margin-bottom: 20px;       /* Espacio inferior */
+}
+
+/* Estilo del campo de entrada */
+input {
+    width: 100%;               /* Ancho completo */
+    padding: 12px;             /* Espaciado interno */
+    margin-bottom: 15px;       /* Espacio inferior */
+    background: #2a2a2a;       /* Fondo del input */
+    border: none;              /* Sin borde */
+    border-radius: 5px;        /* Bordes redondeados */
+    color: white;              /* Color del texto */
+    box-sizing: border-box;    /* Incluye padding y borde */
+}
+
+/* Estilo del botón */
+button {
+    width: 100%;               /* Ancho completo */
+    padding: 12px;             /* Espaciado interno */
+    background: #22c55e;       /* Color de fondo */
+    color: white;              /* Color del texto */
+    border: none;              /* Sin borde */
+    border-radius: 5px;        /* Bordes redondeados */
+    font-weight: bold;         /* Texto en negrita */
+    cursor: pointer;           /* Cursor de mano */
+}
+
+/* Efecto al pasar el mouse */
+button:hover {
+    background: #16a34a;       /* Color al pasar el mouse */
+}

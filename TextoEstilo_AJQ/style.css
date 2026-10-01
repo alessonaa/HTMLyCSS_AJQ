@@ -1,0 +1,27 @@
+/* Alessandra Juarez */
+/* Estilos generales de la página */
+body {
+    display: flex;             /* Usa Flexbox para centrar */
+    justify-content: center;   /* Centra horizontalmente */
+    align-items: center;       /* Centra verticalmente */
+    height: 100vh;             /* Alto de toda la ventana */
+    background: #111;          /* Color de fondo oscuro */
+    margin: 0;                 /* Sin margen */
+    font-family: 'Arial Black', sans-serif; /* Tipo de fuente */
+}
+
+/* Estilo del texto con efecto Pop */
+.pop-text {
+    font-size: 80px;           /* Tamaño del texto */
+    font-weight: 900;          /* Negrita */
+    text-transform: uppercase; /* Letras mayúsculas */
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    /* Degradado de colores (rosa a azul) */
+    -webkit-background-clip: text; /* Aplica el degradado al texto */
+    background-clip: text;     /* Propiedad estándar */
+    color: transparent;        /* Hace el texto transparente */
+    filter: drop-shadow(0 0 15px rgba(255, 0, 204, 0.5));
+    /* Sombra brillante */
+    letter-spacing: -2px;      /* Espacio entre letras */
+    margin: 0;                 /* Sin margen */
+}

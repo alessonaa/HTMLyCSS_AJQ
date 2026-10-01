@@ -1,0 +1,73 @@
+/* ALESSANDRA JUAREZ */
+
+body {
+    margin: 0;                          /* Elimina márgenes */
+    font-family: 'Segoe UI', sans-serif; /* Tipo de fuente */
+    background-color: #e0e5ec;          /* Color de fondo */
+}
+
+nav {
+    background: #e0e5ec;                 /* Fondo del navbar */
+    display: flex;                      /* Usa Flexbox */
+    justify-content: space-between;     /* Separa elementos */
+    align-items: center;                /* Centra verticalmente */
+    padding: 20px;                      /* Espaciado interno */
+    box-shadow: 0 10px 20px rgba(163, 177, 198, 0.4); /* Sombra */
+    margin-bottom: 20px;                /* Margen inferior */
+}
+
+.logo {
+    color: #4d4d4d;                     /* Color del logo */
+    font-weight: 800;                   /* Negrita */
+    text-decoration: none;              /* Sin subrayado */
+    font-size: 1.2rem;                  /* Tamaño de fuente */
+    padding: 10px 20px;                 /* Espaciado interno */
+    border-radius: 12px;                /* Bordes redondeados */
+    box-shadow: 5px 5px 10px #b8b9be, 
+               -5px -5px 10px #ffffff;   /* Efecto neumórfico */
+}
+
+.links {
+    list-style: none;                   /* Quita viñetas */
+    margin: 0;                          /* Sin margen */
+    padding: 0;                         /* Sin espaciado */
+    display: flex;                      /* Enlaces en línea */
+    gap: 20px;                          /* Espacio entre enlaces */
+}
+
+.links li a {
+    color: #4d4d4d;                     /* Color del texto */
+    text-decoration: none;              /* Sin subrayado */
+    font-weight: 600;                   /* Negrita */
+    padding: 10px 20px;                 /* Espaciado interno */
+    border-radius: 10px;                /* Bordes redondeados */
+    transition: all 0.3s ease;          /* Transición suave */
+    box-shadow: 5px 5px 10px #b8b9be, 
+               -5px -5px 10px #ffffff;   /* Efecto neumórfico */
+}
+
+.links li a:hover {
+    color: #007bff;                     /* Color al pasar el mouse */
+    box-shadow: inset 5px 5px 10px #b8b9be, 
+                inset -5px -5px 10px #ffffff; /* Efecto presionado */
+}
+
+/* Media Query para pantallas menores a 600px */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;         /* Enlaces en vertical */
+        gap: 20px;                      /* Espacio entre elementos */
+        box-shadow: none;               /* Sin sombra en móviles */
+    }
+
+    .links {
+        flex-direction: column;         /* Lista en vertical */
+        width: 100%;                    /* Ocupa todo el ancho */
+        text-align: center;             /* Centra el texto */
+        gap: 15px;                      /* Espacio entre enlaces */
+    }
+
+    .links li a {
+        display: block;                 /* Cada enlace en una línea */
+    }
+}

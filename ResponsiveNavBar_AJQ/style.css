@@ -1,0 +1,52 @@
+/* ALESSANDRA JUAREZ */
+
+/* Estilos generales */
+body {
+    margin: 0;                 /* Elimina márgenes */
+    font-family: sans-serif;   /* Tipo de fuente */
+}
+
+/* Estilo del nav */
+nav {
+    background: #fbc02d;       /* Color de fondo */
+    display: flex;             /* Usa Flexbox */
+    justify-content: space-between; /* Separa los elementos */
+    align-items: center;       /* Centra verticalmente */
+    padding: 15px 20px;        /* Espaciado interno */
+}
+
+/* Estilo del logo */
+.logo {
+    color: #333;               /* Color del texto */
+    font-weight: bold;         /* Texto en negrita */
+    text-decoration: none;     /* Sin subrayado */
+}
+
+/* Estilo de la lista de enlaces */
+.links {
+    list-style: none;          /* Sin viñetas */
+    margin: 0;                 /* Sin márgenes */
+    padding: 0;                /* Sin espaciado */
+    display: flex;             /* Alineación horizontal */
+    gap: 15px;                 /* Espacio entre enlaces */
+}
+
+/* Estilo de los enlaces */
+.links a {
+    color: #333;               /* Color del texto */
+    text-decoration: none;     /* Sin subrayado */
+    font-weight: bold;         /* Texto en negrita */
+}
+
+/* Media query para pantallas menores a 600px */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column; /* Cambia a vertical */
+        gap: 10px;             /* Espacio entre elementos */
+    }
+
+    .links {
+        flex-direction: column; /* Enlaces en vertical */
+        text-align: center;     /* Texto centrado */
+    }
+}

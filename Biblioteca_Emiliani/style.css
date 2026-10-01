@@ -1,0 +1,75 @@
+body{
+    /* Coloca un color de fondo */
+    background-color: rgb(112, 81, 107);
+    /* Define la fuente */
+    font-family: Arial;
+    /* Elimina el margen predeterminado */
+    margin: 0;
+    /* Agrega espacion interno alrededor del contenido */
+    padding: 30px;
+}
+
+h1{
+    /* Color al titulo */
+    color: white;
+    /* centra el titulo */
+    text-align: center;
+    /* tamaño del titulo */
+    font-size: 30px;
+    /* Coloca margin */
+    margin-bottom: 45px;
+}
+
+.contenedor-libros{
+    display: grid;
+    /* Crea 5 columnas iguales */
+    grid-template-columns: repeat(5, 1fr);
+    /* Espacio entre los libros */
+    gap: 30px;
+}
+
+.libro{
+    background-color: rgb(175, 132, 171);
+    border: 2px solid rgb(99, 37, 96);
+    /* Espacio interno de cada libro*/
+    padding: 20px;
+    /* Establece una altura minima*/
+    min-height: 190px;
+    /* Incluye padding y borde dentro del tgamaño del miimo*/
+    box-sizing: border-box;
+}
+
+.libro h2{
+    /* Color pra los titulos de los libros */
+    color: white;
+    /* Tamaño para los titulos */
+    font-size: 18px;
+    /* Elimina espacio superior */
+    margin-top: 0;
+}
+
+.libro p{
+    /* Tamaño del texto */
+    font-size: 14px;
+    /* Separacion entre cada dato*/
+    margin: 6px 0;
+}
+
+.disponible{
+    /* Texto verde para los libros disponibles */
+    color: rgb(4, 129, 0);
+    /* Aplicando negrita al texto disponible */
+    font-weight: bold;
+}
+
+.no-disponible{
+     /* Texto verde para los libros disponibles */
+    color: rgb(173, 0, 0);
+    /* Aplicando negrita al texto disponible */
+    font-weight: bold;
+}
+
+.libro:hover{
+    /* Efecto de escala al pasaw el mouse */
+    transform: scale(1.05);
+}
